@@ -123,38 +123,6 @@ span {
   padding-left: 50px;
 }
 
-@media only screen and (max-width: 1024px) {
-
-  #letsConnect {
-    margin-top: 5%;
-  }
-
-}
-
-@media only screen and (max-width:900px) {
-
-  .biopic {
-    width: 175px;
-  }
-
-}
-
-@media only screen and (max-width: 750px) {
-
-  #letsConnect {
-    margin-top: 10%;
-  }
-
-  .biopic {
-    width: 150px;
-  }
-
-  .welcome-message {
-    display: none;
-  }
-
-}
-
 #map {
   display: block;
   height: 100%;
@@ -174,11 +142,33 @@ span {
 }
 
 @media only screen and (min-width: 750px) {
-
   #skills-h3,
   #skills,
   .biopic {
     display: block;
   }
+}
 
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
 }
