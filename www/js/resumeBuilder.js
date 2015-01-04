@@ -169,15 +169,25 @@ work.display = function() {
 var projects = {
 	"projects" : [
 		{
+			"title":"Clone of arcade game Frogger",
+			"link":"http://korneevaed.github.io/frogger-clone/",
+			"dates":"2014",
+			"description": "A clone of arcade game, which is built to \
+			use OOJS features.",
+			"images": [
+				"images/project4-0.jpg"
+			]			
+		},
+		{
 			"title":"Stereoskverna website",
 			"link":"http://www.stereoskverna.com/",
 			"dates":"2013-2014",
 			"description": "Website for Industrial music project Stereoskverna. \
 			The player which is used on this website is represented in next project.",
 			"images": [
-				"images/build/project1-0.png",
-				"images/build/project1-8.png",
-				"images/build/project1-6.png"
+				"images/project1-0.jpg",
+				"images/project1-8.jpg",
+				"images/project1-6.jpg"
 			]			
 		},
 		{
@@ -189,7 +199,7 @@ var projects = {
 			I've done this project because most of radial players I could find were not adapted for playlists. \
 			Maybe someday I will develop it into reusable plugin.",
 			"images": [
-				"images/build/project2-2.png"
+				"images/project2-2.jpg"
 			]
 		},		
 		{
@@ -201,8 +211,8 @@ var projects = {
 			it represents my knowledge of HTML5, CSS3 and Bootstrap framework, but only by itself, \
 			containing no actual portfolio. And my photography achievments, of course",
 			"images": [
-				"images/build/project3-2.png",
-				"images/build/project3-3.png"
+				"images/project3-2.jpg",
+				"images/project3-3.jpg"
 			]
 		}
 
