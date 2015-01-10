@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+  <link href="css/style.css" rel="stylesheet" media="screen">
+  <link href="http://fonts.googleapis.com/css?family=Jura:300,600" rel="stylesheet">
+
+  <script src="js/libs/jQuery.js"></script>
+  <script src="js/libs/diagram.js"></script>
+  <script src="js/helper.js"></script>
+  <script src="js/resumeBuilder.js"></script>
+  <!-- // <script src="js/build/production.min.js"></script> -->
+  <!-- // <script async src="http://maps.googleapis.com/maps/api/js?libraries=places"></script> -->
+
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <title>Interactive CV | Ekaterina KORNEEVA</title>
+</head>
+<body>
+  <div id="container">
+    <div class="row green first">
+      <div class="col-md-2" id="pic"></div>
+      <div class="col-md-5" id="name"></div>
+      <div class="col-md-2" id="allSkills"></div>
+      <div class="col-md-3" id="allContacts"></div>
+    </div>
+    <div class="row gray">
+      <div class="col-md-12">
+        <div id="workExperience">
+          <h2>Work Experience</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div id="projects">
+          <h2>Projects</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row gray">
+      <div class="col-md-12">
+        <div id="education" class="gray">
+          <h2>Education</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="skillsChart">
+      <div class="col-md-12">
+        <h2>Skills Chart</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 chart">
+        <h4>Skill1</h4>
+        <div class="skillChart1" data-percent="43.3%"></div>
+      </div>
+      <div class="col-md-3 chart">
+        <h4>Skill2</h4>
+        <div class="skillChart2" data-percent="53.3%"></div>
+      </div>
+      <div class="col-md-3 chart">
+        <h4>Skill3</h4>
+        <div class="skillChart3" data-percent="83.3%"></div>
+      </div>
+      <div class="col-md-3 chart">
+        <h4>Skill4</h4>
+        <div class="skillChart4" data-percent="23.3%"></div>
+      </div>
+    </div>
+<!--     <div class="row gray">
+      <div class="col-md-12">
+        <div id="mapDiv">
+          <h2>Where I've Lived and Worked</h2>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  <script src="js/resumeBuilder.js"></script>
+  <script type="text/javascript">
+  if(document.getElementsByTagName("h3").length === 0) {
+    document.getElementById("header").style.display = "none";
+  }
+  if(document.getElementsByClassName("work-entry").length === 0) {
+    document.getElementById("workExperience").style.display = "none";
+  }
+  if(document.getElementsByClassName("project-entry").length === 0) {
+    document.getElementById("projects").style.display = "none";
+  }
+  if(document.getElementsByClassName("education-entry").length === 0) {
+    document.getElementById("education").style.display = "none";
+  }
+  if(document.getElementById("map") == undefined) {
+    document.getElementById("mapDiv").style.display = "none";
+  }
+  </script>
+</body>
